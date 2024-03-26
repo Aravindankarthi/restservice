@@ -1,0 +1,5 @@
+package com.example.SpringDemoWeb.WebDemo.bean;
+
+public class User {
+
+}

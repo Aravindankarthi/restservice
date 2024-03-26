@@ -1,0 +1,5 @@
+package com.example.SpringDemoWeb.WebDemo.service;
+
+public class HelloWorldService {
+
+}

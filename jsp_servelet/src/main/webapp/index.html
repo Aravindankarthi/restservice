@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Home</title>
+<style type="text/css">
+.hello{
+	background-color: beige;
+	align-items: center;
+	justify-content: center;
+}
+.loginform{
+	border-color: black;
+	border-radius: 15px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+	padding: 10px 20px;
+	width: 350px;
+	text-align: center;
+	margin-top: 50px ;
+	margin-left: 400px;
+	display: flex;
+	gap:5px;
+}
+.head{
+	margin-bottom: 50px;
+	text-align: center;
+	display: fex;
+	margin-left: 100px;
+}
+.label input {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.sub-btn{
+background-color:green;
+border-color: green;
+border-radius: 5px;
+color: white;
+width: 100px;
+
+}
+.sub-btn:hover{
+background-color:white;
+border-color: green;
+color:green;
+
+}
+.signup{
+
+color: black;
+}
+</style>
+<script type="text/javascript">
+	function myFunction() {
+		var user = document.getElementById("Uname").value;
+		var pass = document.getElementById("password").value;
+		
+		console.log(user+" "+pass);
+		
+		if(user == ""){
+			alert("please enter the username");
+			return false;
+		}
+		if(pass == ""){
+			alert("please enter the password");
+			return false;
+		}
+	}
+
+</script>
+</head>
+<body class="hello">
+<h1 class="head">Login Form</h1>
+	<!-- 	<form action="Welcome.html" onsubmit="return myFunction()"> -->
+	<!-- 		Username <input type="text" id="Uname"/> -->
+	<!-- 		Password <input type="password" id="Password"/> -->
+	<!-- 		<input type="submit" /> -->
+	<!-- 	</form> -->
+	<div class="loginform">
+	<form action="validate" onsubmit="return myFunction()" method="get">
+
+		<table>
+			<tr class="label">
+				<td>Username</td>
+				<td><input type="text" id="Uname" name="Uname"/></td>
+			</tr>
+			<tr class="label">
+				<td>Password</td>
+				<td><input type="password" id="Password" name="Password"/></td>
+			</tr>
+			<tr class="label">
+				<td></td>
+				<td><input class="sub-btn" type="submit" value="Submit"/></td>
+				
+			</tr>
+			<tr>
+				<td></td>
+				<td class="signup"><p>If you're Newuser <a href="NewUser.html">Sign Up</a></p></td>
+			</tr>
+			
+			
+		</table>
+	</form>
+	</div>
+</body>
+</html>

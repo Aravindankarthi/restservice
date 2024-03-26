@@ -1,0 +1,23 @@
+package springDemo2.Itreation2;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import springDemo.Iteration1.GameRunner;
+import springDemo.Iteration1.Pacman;
+
+@SpringBootApplication
+public class Itreation2Application {
+
+	public static void main(String[] args) {
+//		SpringApplication.run(Itreation2Application.class, args);
+		Pacman1 pacc= new Pacman1();
+		Mario1 mar= new Mario1();
+		Contra1 con = new Contra1();
+		GameRunner1 game = new GameRunner1();
+		game.runGame(pacc);
+		game.runGame(mar);
+		game.runGame(con);
+	}
+
+}

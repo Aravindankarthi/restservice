@@ -1,0 +1,5 @@
+package com.example.SpringDemoWeb.WebDemo.controller;
+
+public class UserResource {
+
+}

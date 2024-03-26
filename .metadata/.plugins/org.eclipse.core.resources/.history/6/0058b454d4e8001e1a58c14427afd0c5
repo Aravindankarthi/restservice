@@ -1,0 +1,8 @@
+package springDemo.Iteration1;
+
+public interface Game1 {
+	void up();
+	void down();
+	void left();
+	void right();
+}

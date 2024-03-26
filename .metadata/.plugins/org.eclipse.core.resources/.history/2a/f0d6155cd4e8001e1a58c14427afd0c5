@@ -1,0 +1,11 @@
+package springDemo.Iteration1;
+
+public class Iteration2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Pacman1 pacc= new Pacman1();
+		GameRunner1 game = new GameRunner1(pacc);
+	}
+
+}

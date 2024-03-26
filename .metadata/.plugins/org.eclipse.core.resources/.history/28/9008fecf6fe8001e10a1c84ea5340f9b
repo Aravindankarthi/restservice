@@ -1,0 +1,5 @@
+package springDemo.Iteration1;
+
+public interface Game1 {
+
+}

@@ -1,0 +1,14 @@
+package springDemo.Iteration1;
+
+public class Contra1 {
+	public void up() {
+		System.out.println("Contra up");
+	}
+	public void down() {
+		System.out.println("Contra down");
+	}public void right() {
+		System.out.println("Contra right");
+	}public void left() {
+		System.out.println("Contra left");
+	}
+}

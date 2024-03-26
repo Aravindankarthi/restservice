@@ -1,0 +1,7 @@
+127.0.0.1 - - [17/Mar/2024:19:48:15 +0530] "GET / HTTP/1.1" 404 751
+127.0.0.1 - - [17/Mar/2024:19:48:49 +0530] "GET /jsp_servelet/Validate HTTP/1.1" 500 1241
+127.0.0.1 - - [17/Mar/2024:19:50:36 +0530] "GET / HTTP/1.1" 404 751
+127.0.0.1 - - [17/Mar/2024:20:03:35 +0530] "GET / HTTP/1.1" 404 751
+127.0.0.1 - - [17/Mar/2024:20:03:45 +0530] "GET /jsp_servelet/ HTTP/1.1" 200 2065
+127.0.0.1 - - [17/Mar/2024:20:04:28 +0530] "GET /jsp_servelet/validate?Uname=&Password= HTTP/1.1" 404 776
+127.0.0.1 - - [17/Mar/2024:20:04:46 +0530] "GET /jsp_servelet/validate?Uname=aravind&Password=1234 HTTP/1.1" 404 776

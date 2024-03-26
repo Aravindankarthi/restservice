@@ -1,0 +1,11 @@
+package springDemo2.Itreation2;
+
+public class GameRunner1 {
+	Pacman1 pac;
+	public  GameRunner1(Pacman1 pac) {
+		pac.up();
+		pac.down();
+		pac.right();
+		pac.left();
+	}
+}
